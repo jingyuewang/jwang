@@ -1,0 +1,12 @@
+/* Transparent PNGs */
+<style type=“text/css">
+img, a {
+  behavior: url("/style/iepngfix.htc");
+}
+
+/* IE6 and 7 do not support inline-block for block elements like <li> */
+#header ul.menu li, #header ul.submenu li {
+  display: inline;
+}
+
+</style>

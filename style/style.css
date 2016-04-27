@@ -1,0 +1,336 @@
+/*****************************/
+/*  Body                     */
+/*****************************/
+body {
+  /*background              : url(header_background1.png) repeat-x top left;*/
+  background-color        : #ffffff;
+  padding                 : 0;
+  margin                  : 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+
+/******************************************************/
+/* Centered Layout + 'stay on bottom' footer          */
+/******************************************************/
+#layout {
+  margin                  : 0 auto 0 auto;
+  min-width               : 700px;
+  width                   : 90%;
+}
+
+#wrapper {
+  min-height              : 100%;
+  height                  : auto !important;
+  height                  : 100%;
+  margin                  : 0 auto -53px;
+}
+
+#footer, #push {
+ height                   : 53px;
+}
+
+/****************************/
+/* Footer                   */
+/****************************/
+#sitefooter {
+  background              : url(ti/footer_background.png) repeat-x;
+  height                  : 53px;
+}
+
+/*////////////////////////////////////////////////////////*/
+div.main {
+   vertical-align         : top;
+}
+
+
+table.main {
+   width                  : 100%;
+   border                 : 0px;
+   margin                 : 0px;
+   padding                : 0px;
+}
+
+td.main {
+   /*width                  : 33%;*/ 
+   margin                 : 4px;
+   text-align             : left;
+   vertical-align         : top;
+   padding                : 8px;
+}
+
+div.bod {
+   column-width           : 15em;
+   -moz-column-width      : 15em;
+   column-gap             : 2em;
+   -moz-column-gap        : 2em;
+   column-rule-style      : solid;
+   -moz-column-rule-style : solid;
+   column-rule-width      : 1px;
+   -moz-column-rule-width : 1px;
+   column-rule-color      : #eeeeee;
+   -moz-column-rule-color : #eeeeee;
+   overflow               : auto;
+   margin                 : 1em;
+   text-align             : left;
+   vertical-align         : top;
+}
+
+
+div.fragment, div.code {
+   border                 : 1px solid #eee;
+   text-align             : left;
+   vertical-align         : middle;
+   padding                : 8px;
+   overflow               : auto;
+}
+
+pre {
+   border                 : 1px dotted #bbb;
+   text-align             : left;
+   vertical-align         : middle;
+   padding                : 5px;
+   overflow               : auto;
+}
+
+
+hr {
+   width                  : 200px;
+   height                 : 1px;
+   background-color       : #eeeeee;
+   border                 : 0px;
+}
+
+h2 {
+   margin                 : 0;
+   padding                : 0;
+}
+
+h3 {
+   margin                 : 0;
+   padding                : 0;
+}
+
+p {
+   margin-top: 2px;
+   margin-bottom: 10px;
+   padding: 0;
+}
+
+a:link {
+   color                  : #445566;
+   text-decoration        : underline;
+}
+
+a:visited {
+   color                  : #667788;
+   text-decoration        : underline;
+}
+
+a:active {
+   color                  : #88cccc;
+   text-decoration        : none;
+}
+
+a:hover {
+   color                  : #112266;
+   text-decoration        : underline;
+}
+
+img {
+   vertical-align         : middle;
+   border                 : 0px;
+}
+
+img.thumb {
+   vertical-align         : middle;
+   border                 : 1px solid;
+}
+
+table.n {
+   width                  : 100px;
+   height                 : 100px;
+   clear                  : both;
+   border                 : 0px;
+   margin                 : 0px;
+   padding                : 0px;
+   border-collapse        : collapse;
+}
+
+table.nl {
+   float                  : left;
+}
+
+table.nr {
+   float                  : right;
+}
+
+table.h {
+   width                  : 100%;
+   padding                : 0px;
+   margin                 : 0px;
+   border-collapse        : collapse;
+}
+
+div.l {
+   clear                  : both;
+   padding                : 7px 8px;
+}
+
+div.ll {
+   float                  : left;
+}
+
+div.lr {
+   float                  : right;
+}
+
+table.b {
+   padding                : 0px;
+   margin                 : 0px;
+   border                 : 0px;
+   border-spacing         : 0px;
+   border-style           : none;
+   border-collapse        : collapse;
+   font-size              : 0px;
+   line-height            : 0px;
+}
+
+td.b1 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='i/b1.png'); }
+td.b1[class] { background-image:url("i/b1.png"); }
+td.b2 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='i/b2.png'); }
+td.b2[class] { background-image:url("i/b2.png"); }
+td.b3 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='i/b3.png'); }
+td.b3[class] { background-image:url("i/b3.png"); }
+td.b4 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='i/b4.png'); }
+td.b4[class] { background-image:url("i/b4.png"); }
+td.b5 {
+   background-image       : url("i/b5.png");
+   font-size              : 11px;
+   color                  : #ffffff;
+   text-align             : left;
+   vertical-align         : middle;
+}
+td.b6 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='i/b6.png'); }
+td.b6[class] { background-image:url("i/b6.png"); }
+td.b7 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='i/b7.png'); }
+td.b7[class] { background-image:url("i/b7.png"); }
+td.b8 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='i/b8.png'); }
+td.b8[class] { background-image:url("i/b8.png"); }
+td.b9 { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='i/b9.png'); }
+td.b9[class] { background-image:url("i/b9.png"); }
+
+a.b:link {
+   color                  : #ffffff;
+   text-decoration        : none;
+}
+
+a.b:visited {
+   color                  : #ffffff;
+   text-decoration        : none;
+}
+
+a.b:active {
+   color                  : #ffee88;
+   text-decoration        : none;
+}
+
+a.b:hover {
+   color                  : #cccccc;
+   text-decoration        : none;
+}
+
+/** NEWS STYLE */
+
+.post {
+   margin                 : 0 0 2.5em 40px;
+   border-left            : 1px solid #bbb;
+   padding-left           : 2ex;
+   text-align             : left;
+}
+
+.news-title {
+   font-size              : 1.1em;
+}
+
+.news-title a, .news-title a:visited, .news-title a:hover {
+   text-decoration        : none;
+}
+
+.news-title span {
+   font-size              : 0.7em;
+}
+
+.news-content {
+   text-align             : justify;
+}
+
+.news-latest-title {
+  margin-bottom: 0;
+}
+
+.news-latest-date {
+  padding-left: 10px;
+  font-size: .8em;
+}
+
+.news-latest-body {
+  margin-top: 5px;
+}
+
+/** SECTION PLUG STYLE */
+
+.section-plug {
+    width                 : 13em;
+    float                 : right;
+    clear                 : right;
+    margin                : 0px 0px 2em 2em;
+    background-color      : #ededf0;
+    background-image      : url('i/section-plug-header.png');
+    background-repeat     : repeat-x;
+}
+
+.section-plug .left-border {
+    margin: 0px;
+    background-image      : url('i/section-plug-header-left.png');
+    background-repeat     : no-repeat;
+}
+
+.section-plug .right-border {
+    margin: 0px;
+    padding: 1em;
+    background-image      : url('i/section-plug-header-right.png');
+    background-position   : top right;
+    background-repeat     : no-repeat;
+}
+
+.section-plug h3 {
+    margin                : 0px;
+    padding               : 0px;
+    width                 : 100%;
+    text-align            : center;
+}
+
+.section-plug a {
+    margin                : 0px;
+    padding               : 0px;
+    text-decoration       : none;
+}
+
+.section-plug ul {
+    margin                : 0px;
+    padding               : 0px;
+    list-style-type       : none;
+}
+
+.section-plug li {
+    margin                : 0px 0px 2px 0px;
+    padding               : 0px;
+    font-size             : 0.8em;
+    font-weight           : bold;
+    text-align            : left;
+}
+       
